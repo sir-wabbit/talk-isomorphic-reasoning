@@ -159,7 +159,7 @@ $x = y \Leftrightarrow \forall P. P x \leftrightarrow P y$ where $P$ is quantifi
 \begin{frame}{Examples of enumeration}
 
     \begin{itemize}
-    	\item Bool = $T \lor F$ has precisely 2 values - true of false.
+        \item Bool = $T \lor F$ has precisely 2 values - true of false.
 	\item tuples
 	\item either
 	\item maybe
@@ -1748,7 +1748,7 @@ More succinctly, the object $X \times Y$ in the following diagram commutes for a
    Note that if we remove the parameters of the functor, then we are left with a statement about the natural isomorphism whose components characterize currying:
 
    \begin{center}
-   	\begin{equation*}
+    \begin{equation*}
 		\Phi_{X,Y} : \cat{C}(A \times X, Y) \cong \cat{C}(A, Y^X)
 	\end{equation*}
    \end{center}
@@ -1760,7 +1760,7 @@ More succinctly, the object $X \times Y$ in the following diagram commutes for a
 
 \begin{frame}{Adjunctions}
    \begin{definition}[Adjunction]
-   	Let $F: \cat{C} \to \cat{D}$ and $G: \cat{D} \to \cat{C}$ be functors. We say that $F$ and $G$ are \textbf{adjoint} (left and right adjoint resp.), or notationally $F \dashv G$ if there exists a natural isomorphism $\Phi : D(F-,=) \cong C(-, G=)$. The components of $\Phi$ are set bijections $\Phi_{X,Y} : \cat{D}(FX, Y) \cong \cat{C}(X, GY)$
+    Let $F: \cat{C} \to \cat{D}$ and $G: \cat{D} \to \cat{C}$ be functors. We say that $F$ and $G$ are \textbf{adjoint} (left and right adjoint resp.), or notationally $F \dashv G$ if there exists a natural isomorphism $\Phi : D(F-,=) \cong C(-, G=)$. The components of $\Phi$ are set bijections $\Phi_{X,Y} : \cat{D}(FX, Y) \cong \cat{C}(X, GY)$
    \end{definition}
 \end{frame}
 
@@ -1837,7 +1837,7 @@ Thus, we obtain the following:
     Therefore our functor on the right is one that takes any $X \in \cat{C}$ to its diagonal pair, $\Delta: \cat{C} \to \cat{C} \times \cat{C}$, and the components of our isomorphism take the form of
 
     \begin{center}
-    	\begin{equation*}
+        \begin{equation*}
 		\Phi_{X,Y} : \cat{C}(B + X, Y) \to \cat{C}(B \times X, \Delta Y) \cong \cat{C}(B, Y) \times \cat{C}(X, Y)
 	\end{equation*}
     \end{center}
